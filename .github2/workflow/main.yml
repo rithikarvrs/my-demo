@@ -1,0 +1,10 @@
+name: Rithika
+on: push
+jobs:
+   first-job:
+        runs-on: ubuntu-latest
+
+        steps: 
+           - name: printing msg
+             run: echo "hii guys"
+             
